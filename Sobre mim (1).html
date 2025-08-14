@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/sobre.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="./Sobre mim_files/style.css">
+</head>
+
+
+<body>
+
+
+
+    <header>
+
+        <h2>Sobre Mim</h2>
+
+        <nav>
+
+            <a href="http://127.0.0.1:5500/index.html">Pagina inicial</a>
+            <a href="http://127.0.0.1:5500/sobre.html">Sobre Mim</a>
+            <a href="http://127.0.0.1:5500/contato.html">Contato</a>
+
+
+        </nav>
+
+
+    </header>
+
+
+
+
+    <main>
+
+<section>
+  <h2>Olá, eu sou Lívia Monteiro</h2>
+  <img src="./Sobre mim_files/♡My Melody oficial coquette draw♡.jpg" alt="Foto de Lívia Monteiro" class="foto-sobre">
+  <p>Sou apaixonada por desenvolvimento web e tenho 3 anos de experiência criando soluções que facilitam o dia a dia das pessoas. Gosto de aprender sempre coisas novas e estou focada em construir projetos que tenham impacto real.</p>
+</section>
+
+<section>
+  <h2>Minha filosofia</h2>
+  <p>Além da parte técnica, valorizo muito a experiência do usuário e acredito que tecnologia deve ser acessível e inclusiva para todos.</p>
+  Sou uma pessoa dedicada e curiosa, sempre em busca de aprender novas tecnologias e aprimorar minhas habilidades. Acredito que a colaboração e o compartilhamento de conhecimento são fundamentais para o crescimento profissional e pessoal.
+</section>
+
+<section>
+  <h2>Interesses pessoais</h2>
+  <p>Fora do mundo da programação, gosto de explorar a natureza, ler sobre inovação tecnológica e participar de comunidades que promovem a inclusão digital.</p>
+  Meu objetivo é unir paixão e propósito para construir soluções que façam a diferença na vida das pessoas.
+</section>   
+  
+     
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+    
+
+    <footer>
+
+        <p>Todos os direitos reservados</p>
+
+    </footer>
+
+
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
